@@ -1,3 +1,10 @@
+
+function subtractNumbers() {
+    var val1 = parseInt(document.getElementById("value1").value);
+    var val2 = parseInt(document.getElementById("value2").value);
+    var ansD = document.getElementById("answer");
+    ansD.value = val1 - val2;
+  
 function addNumbers() {
     const num1 = document.getElementById('addNum1').value;
     const num2 = document.getElementById('addNum2').value;
@@ -19,4 +26,5 @@ function multiFunction(e) {
     let multiAnswer = document.getElementById('multiAnswer');
 
     multiAnswer.value += firstNumber.value * lastNumber.value;
+
 }
